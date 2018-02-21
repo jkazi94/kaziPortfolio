@@ -2,19 +2,22 @@
 // Fonts
 // @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
+
+
+// Bulma
+@import "c:/xampp/htdocs/KaziPortfolio/node_modules/bulma/bulma";
+
+// Font awesome
+@import "c:/xampp/htdocs/KaziPortfolio/node_modules/font-awesome/scss/font-awesome";
+
+// Buefy
+@import "c:/xampp/htdocs/KaziPortfolio/node_modules/buefy/src/scss/buefy";
+
 // Variables
 @import "variables";
 
-// Bulma
-@import "node_modules/bulma/bulma";
+// Custom CSS
+@import "overrides";
+@import "helpers";
+@import "styles";
 
-// Font awesome
-@import "node_modules/font-awesome/scss/font-awesome";
-
-// Buefy
-@import "node_modules/buefy/src/scss/buefy";
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
